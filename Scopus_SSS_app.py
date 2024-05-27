@@ -86,10 +86,34 @@ if "log_container" not in st.session_state:
 st.title("Scopus Sub-Keyword Synonym Search")
 
 # Load configuration from user input
+
+# Define the mapping of document type abbreviations to full names
+doctype_mapping = {
+    "ar": "Article",
+    "ab": "Abstract Report",
+    "bk": "Book",
+    "ch": "Book Chapter",
+    "cp": "Conference Paper",
+    "cr": "Conference Review",
+    "dp": "Data Paper",
+    "ed": "Editorial",
+    "er": "Erratum",
+    "le": "Letter",
+    "mm": "Multimedia",
+    "no": "Note",
+    "rp": "Report",
+    "tb": "Retracted",
+    "re": "Review",
+    "sh": "Short Survey"
+}
+
+# Inverse mapping for query generation
+doctype_inv_mapping = {v: k for k, v in doctype_mapping.items()}
+
 papers_per_search = st.number_input("Papers per Search", min_value=1, value=10)
 publication_year = st.text_input("Publication Year (e.g., 2020 or 2015-2024)", "")
 author_name = st.text_input("Author Name", "")
-doctype = st.multiselect("Document Types", ["ar", "ab", "bk", "ch", "cp", "cr", "dp", "ed", "er", "le", "mm", "no", "rp", "tb", "re", "sh"])
+doctype_full_names = st.multiselect("Document Types", list(doctype_mapping.values()))
 
 first_subkeywords = st.text_area("First Sub-keywords (comma separated)", "lighting control,shading control,daylighting").split(",")
 second_subkeywords = st.text_area("Second Sub-keywords (comma separated)", "reinforcement learning,machine learning,artificial intelligence").split(",")
