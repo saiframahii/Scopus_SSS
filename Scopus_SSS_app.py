@@ -31,15 +31,15 @@ def perform_search(query, index="scopus"):
                 results_df[col] = None
 
         filtered_df = results_df[required_columns ].copy()
-        filtered_df = filtered_df.rename(columns={'prism:doi': 'Original DOI'})
-        filtered_df['DOI'] = filtered_df['Original DOI'].apply(lambda doi: f"https://doi.org/{doi}" if pd.notna(doi) else None)
+        # filtered_df = filtered_df.rename(columns={'prism:doi': 'Original DOI'})
+        filtered_df['DOI'] = filtered_df['prism:doi'].apply(lambda doi: f"https://doi.org/{doi}" if pd.notna(doi) else None)
+        filtered_df = filtered_df.drop(columns=['prism:doi'])
         filtered_df['Publication Year'] = pd.to_datetime(filtered_df['prism:coverDate'], errors='coerce').dt.year
         filtered_df = filtered_df.rename(columns={
             'dc:identifier': 'Identifier',
             'dc:creator': 'Authors',
             'prism:publicationName': 'Journal',
             'dc:title': 'Title',
-            'prism:doi': 'DOI',
             'prism:coverDate': 'Publication Date'
         })
 
