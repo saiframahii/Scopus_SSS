@@ -113,7 +113,7 @@ doctype_inv_mapping = {v: k for k, v in doctype_mapping.items()}
 papers_per_search = st.number_input("Papers per Search", min_value=1, value=10)
 publication_year = st.text_input("Publication Year (e.g., 2020 or 2015-2024)", "")
 author_name = st.text_input("Author Name", "")
-doctype_full_names = st.multiselect("Document Types", list(doctype_mapping.values()))
+doctype = st.multiselect("Document Types", list(doctype_mapping.values()))
 
 first_subkeywords = st.text_area("First Sub-keywords (comma separated)", "lighting control,shading control,daylighting").split(",")
 second_subkeywords = st.text_area("Second Sub-keywords (comma separated)", "reinforcement learning,machine learning,artificial intelligence").split(",")
