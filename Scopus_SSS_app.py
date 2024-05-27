@@ -146,9 +146,13 @@ if st.button("Run Search"):
 # Show save button and text input outside the search button if condition
 if not st.session_state.all_results.empty:
     csv_name = st.text_input("Enter CSV file name (with .csv extension):", "search_results.csv")
-    if st.button("Save results to CSV"):
-        if csv_name:
-            st.session_state.all_results.to_csv(csv_name, index=False)
-            st.write(f"Results saved to {csv_name}")
+    if csv_name:
+        csv_data = st.session_state.all_results.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="Download CSV",
+            data=csv_data,
+            file_name=csv_name,
+            mime='text/csv'
+        )
 
    
