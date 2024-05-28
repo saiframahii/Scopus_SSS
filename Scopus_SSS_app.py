@@ -86,7 +86,7 @@ def perform_search(query, log_stream, index="scopus"):
 
 # Function to handle a single search combination
 def search_combination(combination, log_stream):
-    query = f'TITLE-ABS-KEY({combination[0]} AND {combination[1]} AND {combination[2]})'
+    query = f'TITLE-ABS-KEY("{combination[0]}" AND "{combination[1]}" AND "{combination[2]}")'
 
     # filter with document type
     doctype_query = " OR ".join([f'LIMIT-TO(DOCTYPE, "{doctype}")' for doctype in config['doctype']])
