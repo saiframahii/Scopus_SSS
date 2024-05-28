@@ -110,12 +110,22 @@ def search_combination(combination, log_stream):
     results = perform_search(query, log_stream)
     return query, results
 
-# Initialize session state for results
-if "all_results" not in st.session_state:
-    st.session_state.all_results = pd.DataFrame()
+# Function to reset session state
+def reset_session():
+    for key in st.session_state.keys():
+        del st.session_state[key]
 
 # Streamlit app
 st.title("Scopus Sub-Keyword Synonym Search")
+
+# Reset session button
+if st.button("New Search"):
+    reset_session()
+    st.experimental_rerun()
+
+# Initialize session state for results
+if "all_results" not in st.session_state:
+    st.session_state.all_results = pd.DataFrame()
 
 # Load configuration from user input
 # papers_per_search = st.number_input("Papers per Search", min_value=1, value=10)

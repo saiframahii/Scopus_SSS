@@ -1,0 +1,129 @@
+2024-05-28 15:36:06,374 - elsapy.elsclient - INFO - Module loaded.
+2024-05-28 15:36:08,356 - elsapy.utils - INFO - Module loaded.
+2024-05-28 15:36:08,356 - elsapy.elssearch - INFO - Module loaded.
+2024-05-28 15:38:11,666 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+reinforcement+learning+AND+office+buildings%29
+2024-05-28 15:38:11,666 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+reinforcement+learning+AND+commercial+buildings%29
+2024-05-28 15:38:11,679 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+reinforcement+learning+AND+buildings%29
+2024-05-28 15:38:11,686 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:11,688 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:12,235 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:12,252 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:12,350 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:13,232 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+commercial+buildings%29
+2024-05-28 15:38:13,265 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:13,365 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:13,498 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:13,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:13,817 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:13,916 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:14,832 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+commercial+buildings%29
+2024-05-28 15:38:14,931 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+reinforcement+learning+AND+buildings%29
+2024-05-28 15:38:15,066 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:15,182 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:15,182 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:15,449 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:15,616 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:15,716 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:16,465 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+reinforcement+learning+AND+office+buildings%29
+2024-05-28 15:38:16,615 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+reinforcement+learning+AND+commercial+buildings%29
+2024-05-28 15:38:16,732 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:16,799 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:16,865 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:16,899 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:17,449 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:17,899 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:17,915 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+machine+learning+AND+commercial+buildings%29
+2024-05-28 15:38:18,282 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:18,399 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:18,411 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:18,449 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:18,531 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:19,066 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:19,184 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:19,298 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:19,399 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+artificial+intelligence+AND+commercial+buildings%29
+2024-05-28 15:38:19,783 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:19,799 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:20,032 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:20,066 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+reinforcement+learning+AND+buildings%29
+2024-05-28 15:38:20,198 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+reinforcement+learning+AND+office+buildings%29
+2024-05-28 15:38:20,582 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:20,632 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:20,653 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:20,800 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+reinforcement+learning+AND+commercial+buildings%29
+2024-05-28 15:38:20,800 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:21,581 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:21,648 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:21,649 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+commercial+buildings%29
+2024-05-28 15:38:21,966 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:22,147 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:22,182 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:22,366 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:22,431 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:22,532 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:22,932 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:22,982 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+artificial+intelligence+AND+commercial+buildings%29
+2024-05-28 15:38:23,350 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:31,938 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+reinforcement+learning+AND+buildings%29
+2024-05-28 15:38:31,940 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+reinforcement+learning+AND+office+buildings%29
+2024-05-28 15:38:31,944 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:31,944 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:31,950 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+reinforcement+learning+AND+commercial+buildings%29
+2024-05-28 15:38:32,309 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:32,408 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:32,549 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:33,331 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+commercial+buildings%29
+2024-05-28 15:38:33,415 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:33,547 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:33,567 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:33,631 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:33,865 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:34,047 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:34,881 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+commercial+buildings%29
+2024-05-28 15:38:35,034 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+reinforcement+learning+AND+buildings%29
+2024-05-28 15:38:35,079 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:35,365 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:35,384 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:35,475 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:35,554 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:35,993 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:36,386 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+reinforcement+learning+AND+office+buildings%29
+2024-05-28 15:38:36,575 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+reinforcement+learning+AND+commercial+buildings%29
+2024-05-28 15:38:36,670 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:36,780 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:36,984 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:37,000 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:37,550 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:37,797 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:37,947 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+machine+learning+AND+commercial+buildings%29
+2024-05-28 15:38:38,230 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:38,431 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:38,456 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:38,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:38,647 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:39,165 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:39,249 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:39,434 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:39,464 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28shading+control+AND+artificial+intelligence+AND+commercial+buildings%29
+2024-05-28 15:38:39,844 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=TITLE-ABS-KEY%28lighting+control+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:39,844 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:39,907 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:40,162 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+reinforcement+learning+AND+buildings%29
+2024-05-28 15:38:40,264 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+reinforcement+learning+AND+office+buildings%29
+2024-05-28 15:38:40,317 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:40,534 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:40,634 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:40,848 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+reinforcement+learning+AND+commercial+buildings%29
+2024-05-28 15:38:40,912 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:41,328 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+office+buildings%29
+2024-05-28 15:38:41,548 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+commercial+buildings%29
+2024-05-28 15:38:41,646 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+artificial+intelligence+AND+buildings%29
+2024-05-28 15:38:41,830 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:41,998 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:42,114 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:42,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+artificial+intelligence+AND+office+buildings%29
+2024-05-28 15:38:42,533 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=TITLE-ABS-KEY%28daylighting+AND+machine+learning+AND+buildings%29
+2024-05-28 15:38:42,646 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:42,845 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=TITLE-ABS-KEY%28daylighting+AND+artificial+intelligence+AND+commercial+buildings%29
+2024-05-28 15:38:43,213 - elsapy.utils - INFO - Converting prism:coverDate
+2024-05-28 15:38:43,265 - elsapy.utils - INFO - Converting prism:coverDate
