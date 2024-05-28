@@ -121,7 +121,7 @@ st.title("Scopus Sub-Keyword Synonym Search")
 # Reset session button
 if st.button("New Search"):
     reset_session()
-    st.experimental_rerun()
+    st.rerun()
 
 # Initialize session state for results
 if "all_results" not in st.session_state:
